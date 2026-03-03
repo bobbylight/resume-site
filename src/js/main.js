@@ -1,5 +1,3 @@
-import '../assets/scss/pillar-1.scss';
-
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons/faMobileAlt";
 import { faAward } from "@fortawesome/free-solid-svg-icons/faAward";
