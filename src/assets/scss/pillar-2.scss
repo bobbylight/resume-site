@@ -19,14 +19,26 @@ $theme-bg-dark: $theme-text-color-primary;
 
 // Create variables to override the default value for variables used in the Bootstrap SCSS files.
 $theme-colors: (
-  "primary":  $theme-color-primary, 
-  "secondary":  $theme-text-color-secondary, 
+  "primary":   $theme-color-primary,
+  "secondary": $theme-text-color-secondary,
+  "success":   #52A450FF,
+  "info":      #4C9FB5FF,
+  "warning":   #ffc107,
+  "danger":    #dc3545,
+  "light":     #f8f9fa,
+  "dark":      #212529,
 );
 
 //Import Bootstrap
 //@import "bootstrap/scss/bootstrap.scss";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+/*************************** Overrides ****************************/
+.text-bg-success,
+.text-bg-info {
+	color: #fff !important;
+}
 
 /*************************** Pillar Styles ****************************/
 body {
@@ -95,10 +107,12 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 	
 	a {
 		color: rgba(256, 256, 256, 0.6);
+		text-decoration: none;
 		&:hover {
 			color: white;
+			text-decoration: underline;
 		}
-		
+
 	}
 	
 	
