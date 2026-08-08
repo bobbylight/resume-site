@@ -271,7 +271,7 @@ a.theme-btn-on-bg, .theme-btn-on-bg {
 		height: auto;
 	}
 	.resume-header .picture {
-		width: 120px;
+		//width: 120px; // let portrait size not be skewed
 		@include border-radius(4px);
 	}
 
