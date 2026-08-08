@@ -4,7 +4,20 @@ tweaked to be minified and a couple of stylistic changes.
 
 ## Building
 
-This actually starts a watch, building the minified site into `dist/`:
+For development:
+
+```bash
+npm run dev
+```
+
+This starts a local dev server with hot-deploy at port 5173.
+
+For production:
+
 ```bash
 npm run build
+npm run preview 
 ```
+
+This builds the app in `dist/`. The "preview" command serves the
+prod build locally for testing.

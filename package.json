@@ -6,15 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "1.2.29",
-    "@fortawesome/free-brands-svg-icons": "5.13.1",
-    "@fortawesome/free-regular-svg-icons": "5.13.1",
-    "@fortawesome/free-solid-svg-icons": "5.13.1",
+    "@fortawesome/fontawesome-svg-core": "7.3.1",
+    "@fortawesome/free-brands-svg-icons": "7.3.1",
+    "@fortawesome/free-regular-svg-icons": "7.3.1",
+    "@fortawesome/free-solid-svg-icons": "7.3.1",
     "sass": "1.97.3",
     "vite": "7.3.1"
   },
